@@ -50,12 +50,6 @@ fn xor_bw_range(lower: u128, upper: u128) -> u128 {
     upper ^ (lower - 1)
 }
 
-
-fn main() {
-    let x: u128 = 13 << 120;
-    println!("{:?}", x.to_le_bytes());
-}
-
 #[test]
 fn it_works() {
     let a = 12;
