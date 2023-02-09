@@ -1,5 +1,4 @@
 #![allow(dead_code)]
-
 fn bit_add<T>(n1: u128, n2: u128) -> u128 {
     (n1 & n2) + (n1 | n2)
 }
