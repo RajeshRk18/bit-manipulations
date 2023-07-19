@@ -4,6 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-hex = "0.4.3"
-parse-size = "1.0.0"
-sha1 = "0.10.5"
+
